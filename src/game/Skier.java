@@ -6,7 +6,7 @@ import javax.swing.ImageIcon;
 
 public class Skier {
 
-    private String skier = "src/resources/skier.gif";
+    private String skier = "resources/skier.gif";
 
     private int dx;
     private int dy;
