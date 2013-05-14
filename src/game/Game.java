@@ -1,5 +1,6 @@
 package game;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 public class Game extends JFrame {
@@ -11,6 +12,7 @@ public class Game extends JFrame {
         add(new Board());
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setIconImage(new ImageIcon("resources/icons/new.ico").getImage());
         setSize(1024, 768);
         setLocationRelativeTo(null);
         setTitle("JSkiFree");
