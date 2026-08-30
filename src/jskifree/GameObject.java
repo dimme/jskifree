@@ -1,5 +1,5 @@
 /* One sprite record on the hill, the original's object struct. */
-package skifree;
+package jskifree;
 
 public final class GameObject {
     public GameObject next;

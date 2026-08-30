@@ -12,7 +12,7 @@
  *
  * This class holds everything that was a #define or an enum in skifree.h.
  */
-package skifree;
+package jskifree;
 
 public final class Consts {
     private Consts() {}

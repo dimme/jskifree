@@ -13,7 +13,7 @@ SRCDIR  = src
 BINDIR  = bin
 JARFILE = skifree.jar
 
-SOURCES = $(wildcard $(SRCDIR)/skifree/*.java)
+SOURCES = $(wildcard $(SRCDIR)/jskifree/*.java)
 
 all: $(JARFILE)
 
@@ -29,7 +29,7 @@ $(BINDIR)/.resources: $(shell find $(SRCDIR)/resources -type f)
 	touch $@
 
 $(JARFILE): $(BINDIR)/.classes $(BINDIR)/.resources
-	$(JAR) --create --file $@ --main-class skifree.JSkiFree -C $(BINDIR) skifree -C $(BINDIR) resources
+	$(JAR) --create --file $@ --main-class jskifree.JSkiFree -C $(BINDIR) jskifree -C $(BINDIR) resources
 
 run: $(JARFILE)
 	$(JAVA) -jar $(JARFILE)

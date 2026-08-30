@@ -3,9 +3,9 @@
  * Each block notes the address it was read from in the original image.
  * Nothing here was invented: these are the bytes the 1991 game shipped with.
  */
-package skifree;
+package jskifree;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class Tables {
     private Tables() {}

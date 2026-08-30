@@ -11,7 +11,7 @@
  * Everything is drawn into an off-screen back buffer and copied to the
  * window once per frame, which is what ski32.exe did as well.
  */
-package skifree;
+package jskifree;
 
 import java.awt.Color;
 import java.awt.Dimension;

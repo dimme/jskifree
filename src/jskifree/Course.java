@@ -5,12 +5,12 @@
  * green as you pass it on the correct side and red if you miss it, and a
  * miss adds five seconds to your time.
  */
-package skifree;
+package jskifree;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class Course {
     private Course() {}

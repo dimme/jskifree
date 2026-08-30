@@ -106,23 +106,23 @@ sprites, sounds and icon as generated tables, this port decodes the extracted
 originals at start-up instead, so there are no generator scripts.
 
 ```
-src/skifree/Consts.java      types, constants, everything that was a #define
-src/skifree/Tables.java      the numeric tables, each with the address it came from
-src/skifree/GameObject.java  one sprite record on the hill
-src/skifree/Game.java        the game state, the original's globals
-src/skifree/Graphics.java    Java2D back end (the GDI mapping is documented at the top)
-src/skifree/Sprites.java     decodes the 89 4bpp DIBs, white keyed out
-src/skifree/Icon.java        decodes the window icon from the .ico
-src/skifree/Resources.java   classpath loading and little-endian helpers
-src/skifree/World.java       object list, terrain streaming, viewport, drawing
-src/skifree/Motion.java      the physics step shared by everything that moves
-src/skifree/Skier.java       the player's state machine and input
-src/skifree/Npc.java         other skier, dog, snowboarder, fire, walking trees, yeti
-src/skifree/Collide.java     collision rules
-src/skifree/Course.java      the three runs, gates, timing
-src/skifree/HighScore.java   ~/.skifree
-src/skifree/Sound.java       single-voice playback of the WAV clips
-src/skifree/JSkiFree.java    start-up, event loop, status bar
+src/jskifree/Consts.java      types, constants, everything that was a #define
+src/jskifree/Tables.java      the numeric tables, each with the address it came from
+src/jskifree/GameObject.java  one sprite record on the hill
+src/jskifree/Game.java        the game state, the original's globals
+src/jskifree/Graphics.java    Java2D back end (the GDI mapping is documented at the top)
+src/jskifree/Sprites.java     decodes the 89 4bpp DIBs, white keyed out
+src/jskifree/Icon.java        decodes the window icon from the .ico
+src/jskifree/Resources.java   classpath loading and little-endian helpers
+src/jskifree/World.java       object list, terrain streaming, viewport, drawing
+src/jskifree/Motion.java      the physics step shared by everything that moves
+src/jskifree/Skier.java       the player's state machine and input
+src/jskifree/Npc.java         other skier, dog, snowboarder, fire, walking trees, yeti
+src/jskifree/Collide.java     collision rules
+src/jskifree/Course.java      the three runs, gates, timing
+src/jskifree/HighScore.java   ~/.skifree
+src/jskifree/Sound.java       single-voice playback of the WAV clips
+src/jskifree/JSkiFree.java    start-up, event loop, status bar
 src/resources/               the extracted originals: sprites/ (89 BMPs + index.txt), sounds/, icons/
 ```
 

@@ -1,5 +1,5 @@
 /* The whole game state, the original's globals. */
-package skifree;
+package jskifree;
 
 public final class Game {
     public GameObject objects;     /* singly linked list, newest first */

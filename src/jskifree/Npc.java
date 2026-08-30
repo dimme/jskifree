@@ -5,9 +5,9 @@
  * behaviour function in the original; those are reproduced here, including
  * the probabilities. The yeti is the exception and is called out below.
  */
-package skifree;
+package jskifree;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class Npc {
     private Npc() {}

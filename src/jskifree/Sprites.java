@@ -7,7 +7,7 @@
  * ARGB image with white pixels fully transparent, which comes to the same
  * thing when composited over the white snow.
  */
-package skifree;
+package jskifree;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
@@ -16,7 +16,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
-import static skifree.Consts.BITMAP_COUNT;
+import static jskifree.Consts.BITMAP_COUNT;
 
 public final class Sprites {
     private Sprites() {}

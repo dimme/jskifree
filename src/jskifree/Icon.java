@@ -3,7 +3,7 @@
  * The .ico holds three 32x32 images; the first 4-bit one is used. Its XOR
  * bitmap and AND mask are decoded into an ARGB image.
  */
-package skifree;
+package jskifree;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;

@@ -6,7 +6,7 @@
  * is touched from one thread, and the status line is drawn straight onto
  * the back buffer.
  */
-package skifree;
+package jskifree;
 
 import java.awt.Dimension;
 import java.awt.Frame;
@@ -28,7 +28,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 import javax.swing.WindowConstants;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class JSkiFree {
     private JSkiFree() {}

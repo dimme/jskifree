@@ -3,11 +3,11 @@
  * Steering is table driven: TURN_TABLE says which pose the left and right
  * keys move to, and MOTION_TABLE says how fast each pose travels.
  */
-package skifree;
+package jskifree;
 
 import java.awt.event.KeyEvent;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class Skier {
     private Skier() {}

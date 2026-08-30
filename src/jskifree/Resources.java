@@ -1,6 +1,6 @@
 /* Reading the extracted originals off the classpath, plus the little-endian
  * helpers the DIB, ICO and WAV decoders share. */
-package skifree;
+package jskifree;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

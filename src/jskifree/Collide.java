@@ -6,9 +6,9 @@
  * the ones nobody would guess, such as skiing over a bare tree setting it
  * alight, or the extra hundred style points for clearing the smallest bump.
  */
-package skifree;
+package jskifree;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class Collide {
     private Collide() {}

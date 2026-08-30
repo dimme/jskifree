@@ -5,9 +5,9 @@
  * routines: one integrated the position and applied gravity, the other
  * eased the velocities towards the targets held in a motion record.
  */
-package skifree;
+package jskifree;
 
-import static skifree.Consts.worldWrap;
+import static jskifree.Consts.worldWrap;
 
 public final class Motion {
     private Motion() {}

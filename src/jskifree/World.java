@@ -4,12 +4,12 @@
  * scenery in from whichever edge the player was moving towards, capping the
  * total sprite area so the hill never became impassably dense.
  */
-package skifree;
+package jskifree;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class World {
     private World() {}

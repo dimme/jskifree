@@ -14,7 +14,7 @@
  * sound that is already playing is ignored and the cry runs on unbroken.
  * Sound is off unless the game is started with "sound" on the command line.
  */
-package skifree;
+package jskifree;
 
 import java.io.IOException;
 
@@ -23,7 +23,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.SourceDataLine;
 
-import static skifree.Consts.SOUND_COUNT;
+import static jskifree.Consts.SOUND_COUNT;
 
 public final class Sound {
     private Sound() {}

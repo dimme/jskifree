@@ -9,7 +9,7 @@
  * single "bigger is better" sort could rank both the timed courses and the
  * freestyle score.
  */
-package skifree;
+package jskifree;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -19,7 +19,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static skifree.Consts.*;
+import static jskifree.Consts.*;
 
 public final class HighScore {
     private HighScore() {}
